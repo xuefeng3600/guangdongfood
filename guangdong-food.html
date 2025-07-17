@@ -15,7 +15,7 @@
             font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
             min-height: 100vh;
         }
 
@@ -26,8 +26,8 @@
         }
 
         .hero-banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                        url('https://images.unsplash.com/photo-1606914469633-91f89725b19d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3') center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(139, 69, 19, 0.2)),
+                        url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3') center/cover;
             height: 60vh;
             display: flex;
             align-items: center;
@@ -36,6 +36,7 @@
             margin-bottom: 30px;
             position: relative;
             overflow: hidden;
+            box-shadow: 0 15px 35px rgba(255, 154, 158, 0.3);
         }
 
         .hero-content {
@@ -53,7 +54,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(255, 99, 132, 0.1), rgba(54, 162, 235, 0.1));
+            background: linear-gradient(45deg, rgba(255, 193, 7, 0.15), rgba(255, 87, 34, 0.15), rgba(244, 67, 54, 0.1));
             animation: float 6s ease-in-out infinite;
         }
 
@@ -82,7 +83,7 @@
 
         .subtitle {
             font-size: 1.5em;
-            color: #ffd700;
+            color: #FFD54F;
             font-weight: 500;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
             margin-bottom: 20px;
@@ -100,14 +101,14 @@
             border-radius: 15px;
             padding: 30px;
             margin-bottom: 30px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 25px rgba(255, 143, 0, 0.15);
         }
 
         .section-title {
             font-size: 1.8em;
-            color: #2c3e50;
+            color: #D84315;
             margin-bottom: 20px;
-            border-bottom: 3px solid #3498db;
+            border-bottom: 3px solid #FF7043;
             padding-bottom: 10px;
         }
 
@@ -154,7 +155,7 @@
         }
 
         .overview-table th {
-            background: #3498db;
+            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
             color: white;
             font-weight: 600;
         }
@@ -168,12 +169,12 @@
             border-radius: 15px;
             padding: 30px;
             margin-bottom: 30px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 25px rgba(255, 112, 67, 0.15);
         }
 
         .day-title {
             font-size: 1.6em;
-            color: #e74c3c;
+            color: #D84315;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
@@ -181,11 +182,12 @@
         }
 
         .day-number {
-            background: #e74c3c;
+            background: linear-gradient(135deg, #FF7043 0%, #FF5722 100%);
             color: white;
             padding: 5px 15px;
             border-radius: 20px;
             font-weight: 600;
+            box-shadow: 0 4px 15px rgba(255, 112, 67, 0.3);
         }
 
         .time-schedule {
@@ -216,7 +218,7 @@
         }
 
         .time {
-            background: #3498db;
+            background: linear-gradient(135deg, #FF8A65 0%, #FF7043 100%);
             color: white;
             padding: 5px 10px;
             border-radius: 15px;
@@ -224,16 +226,18 @@
             min-width: 80px;
             text-align: center;
             margin-right: 15px;
+            box-shadow: 0 3px 10px rgba(255, 138, 101, 0.3);
         }
 
         .food-section {
-            background: linear-gradient(135deg, #fff3cd 0%, #ffe4b5 100%);
-            border-left: 4px solid #ffc107;
+            background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%);
+            border-left: 4px solid #FF8F00;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
             position: relative;
             overflow: hidden;
+            box-shadow: 0 5px 20px rgba(255, 193, 7, 0.15);
         }
 
         .food-section::before {
@@ -250,14 +254,15 @@
             padding: 15px;
             background: white;
             border-radius: 8px;
-            border-left: 3px solid #f39c12;
+            border-left: 3px solid #FF8F00;
             transition: all 0.3s ease;
             position: relative;
+            box-shadow: 0 2px 8px rgba(255, 143, 0, 0.1);
         }
 
         .food-item:hover {
             transform: translateX(5px);
-            box-shadow: 0 5px 15px rgba(243, 156, 18, 0.3);
+            box-shadow: 0 8px 25px rgba(255, 143, 0, 0.25);
         }
 
         .food-item::before {
@@ -266,7 +271,7 @@
             left: -10px;
             top: 50%;
             transform: translateY(-50%);
-            background: #f39c12;
+            background: linear-gradient(135deg, #FF8F00 0%, #F57C00 100%);
             padding: 5px;
             border-radius: 50%;
             font-size: 0.8em;
@@ -274,18 +279,19 @@
 
         .food-name {
             font-weight: 600;
-            color: #d68910;
+            color: #E65100;
             margin-bottom: 8px;
             margin-left: 5px;
         }
 
         .citywalk-section {
-            background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
-            border-left: 4px solid #28a745;
+            background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
+            border-left: 4px solid #4CAF50;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
             position: relative;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.15);
         }
 
         .citywalk-section::before {
@@ -298,12 +304,13 @@
         }
 
         .accommodation-section {
-            background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
-            border-left: 4px solid #007bff;
+            background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+            border-left: 4px solid #2196F3;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
             position: relative;
+            box-shadow: 0 4px 15px rgba(33, 150, 243, 0.15);
         }
 
         .accommodation-section::before {
@@ -320,7 +327,7 @@
             border-radius: 15px;
             padding: 30px;
             margin-bottom: 30px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 25px rgba(76, 175, 80, 0.15);
         }
 
         .budget-table {
@@ -338,7 +345,7 @@
         }
 
         .budget-table th {
-            background: #27ae60;
+            background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
             color: white;
             font-weight: 600;
         }
@@ -348,7 +355,7 @@
             border-radius: 15px;
             padding: 30px;
             margin-bottom: 30px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 25px rgba(156, 39, 176, 0.15);
         }
 
         .tips-grid {
@@ -395,18 +402,24 @@
         }
 
         .highlight {
-            background: #ffeaa7;
+            background: linear-gradient(135deg, #FFE082 0%, #FFCC02 100%);
             padding: 2px 8px;
             border-radius: 4px;
             font-weight: 600;
+            color: #E65100;
+            box-shadow: 0 2px 6px rgba(255, 204, 2, 0.3);
         }
 
         .total-distance {
             text-align: center;
             font-size: 1.2em;
             font-weight: 600;
-            color: #e74c3c;
+            color: #D84315;
             margin-top: 20px;
+            padding: 10px;
+            background: linear-gradient(135deg, #FFEBEE 0%, #FFE0B2 100%);
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(216, 67, 21, 0.2);
         }
 
         .collapsible {
@@ -431,8 +444,9 @@
         }
 
         .collapsible.active {
-            background: #3498db;
+            background: linear-gradient(135deg, #FF7043 0%, #FF5722 100%);
             color: white;
+            box-shadow: 0 4px 15px rgba(255, 112, 67, 0.3);
         }
         
         .collapsible::after {
@@ -676,8 +690,8 @@
         <div class="hero-banner">
             <div class="hero-content">
                 <h1 class="main-title">广东8天美食自驾游详细计划</h1>
-                <p class="subtitle">海口→湛江→阳江→顺德→广州→返程</p>
-                <p class="hero-description">探索粤菜精髓 · 品味岭南文化 · 寻味千年古韵 · 悠闲海滨自驾</p>
+                <p class="subtitle">海口→湛江→阳江→顺德→广州→佛山→返程</p>
+                <p class="hero-description">🦐 探索粤菜精髓 🏮 品味岭南文化 🥟 寻味千年古韵 🚗 悠闲海滨自驾 🍽️</p>
             </div>
         </div>
 
@@ -709,24 +723,15 @@
                     <tr>
                         <td><span class="highlight">D2</span></td>
                         <td>第2天</td>
-                        <td>湛江深度游</td>
-                        <td>市内</td>
-                        <td>-</td>
-                        <td>湖光岩+东海岛+海滨大餐</td>
-                        <td>湛江市区</td>
+                        <td>湛江→茂名→阳江</td>
+                        <td>220km</td>
+                        <td>3h</td>
+                        <td>茂名荔枝+阳江海鲜</td>
+                        <td>阳江海陵岛</td>
                     </tr>
                     <tr>
                         <td><span class="highlight">D3</span></td>
                         <td>第3天</td>
-                        <td>湛江→阳江</td>
-                        <td>200km</td>
-                        <td>3h</td>
-                        <td>茂名第一滩+阳江海鲜</td>
-                        <td>阳江海陵岛</td>
-                    </tr>
-                    <tr>
-                        <td><span class="highlight">D4</span></td>
-                        <td>第4天</td>
                         <td>阳江→顺德</td>
                         <td>220km</td>
                         <td>3h</td>
@@ -734,8 +739,8 @@
                         <td>顺德大良</td>
                     </tr>
                     <tr>
-                        <td><span class="highlight">D5</span></td>
-                        <td>第5天</td>
+                        <td><span class="highlight">D4</span></td>
+                        <td>第4天</td>
                         <td>顺德深度游</td>
                         <td>市内</td>
                         <td>-</td>
@@ -743,36 +748,45 @@
                         <td>顺德大良</td>
                     </tr>
                     <tr>
-                        <td><span class="highlight">D6</span></td>
-                        <td>第6天</td>
-                        <td>顺德→广州</td>
+                        <td><span class="highlight">D5</span></td>
+                        <td>第5天</td>
+                        <td>顺德→广州【广州深度游第一天】</td>
                         <td>75km</td>
                         <td>1.5h</td>
-                        <td>早茶+西关小吃+老城citywalk</td>
+                        <td>早茶文化+西关小吃+上下九citywalk</td>
+                        <td>广州市区</td>
+                    </tr>
+                    <tr>
+                        <td><span class="highlight">D6</span></td>
+                        <td>第6天</td>
+                        <td>广州深度游第二天</td>
+                        <td>市内</td>
+                        <td>-</td>
+                        <td>传统粤菜+老城区美食+北京路citywalk</td>
                         <td>广州市区</td>
                     </tr>
                     <tr>
                         <td><span class="highlight">D7</span></td>
                         <td>第7天</td>
-                        <td>广州→佛山【经典粤菜收官+佛山传统美食】</td>
-                        <td>33km</td>
-                        <td>1小时</td>
-                        <td>经典粤菜+传统茶楼+老街巡礼</td>
+                        <td>广州→佛山【岭南文化发源地+武术之乡】</td>
+                        <td>40km</td>
+                        <td>1h</td>
+                        <td>佛山盲公饼+扎蹄+佛山祖庙文化</td>
                         <td>佛山市区</td>
                     </tr>
                     <tr>
                         <td><span class="highlight">D8</span></td>
                         <td>返程日</td>
                         <td>佛山→湛江→海口</td>
-                        <td>393km</td>
-                        <td>4.5小时</td>
+                        <td>350km</td>
+                        <td>4h</td>
                         <td>告别大餐+返程轻食</td>
                         <td>温馨的家</td>
                     </tr>
                 </tbody>
                 </table>
             </div>
-            <div class="total-distance">总里程：约1055公里（含往返）</div>
+            <div class="total-distance">总里程：约995公里（含往返）</div>
         </div>
 
         <div class="day-section">
@@ -875,6 +889,16 @@
                         • 传统咖啡铺、甜品店</div>
                     </div>
                     <p><strong>最佳时间：</strong>下午3-6点，既可避开酷暑，又能感受湛江的生活节奏和烟火气</p>
+                    
+                    <div class="food-item">
+                        <div class="food-name">📍 推荐美食店铺</div>
+                        <div>• <strong>水井头早餐店：</strong>赤坎区民权路25号（传统肠粉、粥品）<br>
+                        • <strong>胡须佬椰子档：</strong>赤坎区中山路步行街（椰子汁、椰椰炒冰）<br>
+                        • <strong>本利士多：</strong>赤坎区幸福路15号（港式甜品、网红打卡）<br>
+                        • <strong>许爱周故居咖啡：</strong>赤坎区民主路8号（文艺咖啡、历史建筑）<br>
+                        • <strong>二嫂虾饼店：</strong>赤坎区中山路步行街内（炸虾饼专门店）<br>
+                        • <strong>老湛江肠粉摊：</strong>赤坎区民权路路边（6:00-10:00营业）</div>
+                    </div>
                 </div>
             </div>
 
@@ -897,7 +921,7 @@
         <div class="day-section">
             <div class="day-title">
                 <span class="day-number">D2</span>
-                <span>湛江深度游【湖光岩+东海岛+海滨大餐】</span>
+                <span>湛江→茂名→阳江【茂名荔枝+阳江海鲜】</span>
             </div>
             
             <button class="collapsible" onclick="toggleContent(this)">时间安排</button>
@@ -909,23 +933,23 @@
                     </div>
                     <div class="time-item">
                         <span class="time">09:00</span>
-                        <span>出发前往湖光岩</span>
+                        <span>出发前往茂名</span>
                     </div>
                     <div class="time-item">
                         <span class="time">10:00</span>
-                        <span>游览湖光岩</span>
+                        <span>游览茂名荔枝园</span>
                     </div>
                     <div class="time-item">
                         <span class="time">12:00</span>
-                        <span>午餐：湖光岩景区内餐厅</span>
+                        <span>茂名午餐：茂名荔枝宴</span>
                     </div>
                     <div class="time-item">
                         <span class="time">13:00</span>
-                        <span>出发前往东海岛</span>
+                        <span>出发前往阳江海陵岛</span>
                     </div>
                     <div class="time-item">
                         <span class="time">14:00</span>
-                        <span>抵达东海岛，午餐：海滨大餐</span>
+                        <span>抵达阳江海陵岛，入住酒店</span>
                     </div>
                     <div class="time-item">
                         <span class="time">16:00</span>
@@ -946,146 +970,17 @@
                 </div>
             </div>
 
-            <button class="collapsible" onclick="toggleContent(this)">美食攻略</button>
-            <div class="content">
-                <div class="food-section">
-                    <div class="food-item">
-                        <div class="food-name">🌋 湖光岩景区美食</div>
-                        <div>湖光岩天然矿泉水煮制的清汤火锅，鲜美清香。景区内有多家餐厅提供地道湛江菜，推荐泥丁汤、白切湖鸡</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🏖️ 东海岛海滨大餐</div>
-                        <div>东海岛是中国第五大岛，海鲜资源丰富。推荐：沙虫、对虾、花蟹、生蚝，现买现做，价格实惠</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🦪 北桥头海鲜市场</div>
-                        <div>现买现做生蚝（3-5元/个）、基围虾、花蟹蒸蛋。湛江生蚝个头大、肉质鲜美，烤蒜蓉生蚝最受欢迎</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🐔 口衣记鸡饭店</div>
-                        <div>正宗湛江白切鸡，皮爽肉嫩，配沙姜蘸料。地址：赤坎区中华街道跃进路3号</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🍲 小渔哥海鲜粥</div>
-                        <div>海鲜艇仔粥，料足味鲜，是湛江夜宵经典</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🍤 二嫂虾饼店</div>
-                        <div>炸虾饼外酥里嫩，鲜味十足的街头小吃，位于赤坎老街步行街</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🍜 湛江肠粉</div>
-                        <div>皮薄嫩滑，是当地人早餐常选，各大路边摊都有</div>
-                    </div>
-                </div>
-            </div>
-
-            <button class="collapsible" onclick="toggleContent(this)">湛江景点深度游</button>
-            <div class="content">
-                <div class="citywalk-section">
-                    <h4>🌋 湖光岩世界地质公园</h4>
-                    <p><strong>门票：</strong>50元</p>
-                    <div class="food-item">
-                        <div class="food-name">湖光岩特色</div>
-                        <div>• 距今14-16万年的玛珥湖<br>
-                        • 中国唯一的玛珥湖，水质甘甜清澈<br>
-                        • 湖中无蛇无蛙，水面无落叶，神秘现象<br>
-                        • 负氧离子含量极高，天然氧吧<br>
-                        • 最佳游览时间：早上8-10点，湖面如镜</div>
-                    </div>
-                    
-                    <h4>🏖️ 东海岛龙海天沙滩</h4>
-                    <p><strong>门票：</strong>免费</p>
-                    <div class="food-item">
-                        <div class="food-name">东海岛亮点</div>
-                        <div>• 中国第五大岛，28公里长的海滩<br>
-                        • "南方北戴河"美誉<br>
-                        • 海水清澈，沙质细腻<br>
-                        • 人龙舞表演（传统民俗）<br>
-                        • 海鲜市场：现买现做，价格公道</div>
-                    </div>
-                </div>
-            </div>
-
-            <button class="collapsible" onclick="toggleContent(this)">住宿推荐</button>
-            <div class="content">
-                <div class="accommodation-section">
-                    <h4>湛江花园酒店（五星级推荐）</h4>
-                    <p><strong>地址：</strong>赤坎区观海北路</p>
-                    <p><strong>价格：</strong>450-650元/晚</p>
-                    <p><strong>特色：</strong>45层滨海地标，无敌海景，靠近观海长廊，免费停车</p>
-                    <p><strong>评分：</strong>9.8/10（Trip.com）</p>
-                    
-                    <h4>备选酒店</h4>
-                    <p><strong>湛江人民大道希尔顿欢朋酒店：</strong>万达广场附近，服务热情，早餐一流（9.6/10）</p>
-                    <p><strong>湛江君豪酒店：</strong>万达广场附近，设施现代，服务优质（9.2/10）</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="day-section">
-            <div class="day-title">
-                <span class="day-number">D3</span>
-                <span>湛江→阳江【茂名第一滩+阳江海鲜】</span>
-            </div>
-            
-            <button class="collapsible" onclick="toggleContent(this)">时间安排</button>
-            <div class="content">
-                <div class="time-schedule">
-                    <div class="time-item">
-                        <span class="time">08:00</span>
-                        <span>湛江早餐：榕树湾海鲜捞粉</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">09:00</span>
-                        <span>出发前往茂名第一滩</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">11:00</span>
-                        <span>抵达茂名第一滩，海滨漫步</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">12:30</span>
-                        <span>茂名午餐：电白海鲜粥</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">14:00</span>
-                        <span>出发前往阳江海陵岛</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">16:00</span>
-                        <span>抵达阳江海陵岛，入住酒店</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">17:00</span>
-                        <span>游览海陵岛大角湾</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">18:30</span>
-                        <span>晚餐：闸坡海鲜大排档</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">20:30</span>
-                        <span>夜宵：阳江牛杂粉</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">21:30</span>
-                        <span>海陵岛夜景漫步</span>
-                    </div>
-                </div>
-            </div>
-
             <button class="collapsible" onclick="toggleContent(this)">茂名+阳江美食攻略</button>
             <div class="content">
                 <div class="food-section">
-                    <h4>🏖️ 茂名第一滩美食</h4>
+                    <h4>🏖️ 茂名荔枝之都</h4>
+                    <div class="food-item">
+                        <div class="food-name">🥭 茂名荔枝</div>
+                        <div>茂名是中国荔枝之都，品种丰富，白糖罂、黑叶荔、桂味等，甜美多汁（夏季）。推荐高州荔枝园体验采摘乐趣</div>
+                    </div>
                     <div class="food-item">
                         <div class="food-name">🥣 电白海鲜粥</div>
                         <div>茂名电白特色，选用新鲜海鲜熬制，粥底绵滑，海鲜鲜美。配菜有腌制海鲜、咸菜等</div>
-                    </div>
-                    <div class="food-item">
-                        <div class="food-name">🥭 茂名荔枝</div>
-                        <div>茂名是中国荔枝之都，品种丰富，白糖罂、黑叶荔、桂味等，甜美多汁（夏季）</div>
                     </div>
                     
                     <h4>🦞 阳江海鲜必吃榜</h4>
@@ -1144,17 +1039,22 @@
             <button class="collapsible" onclick="toggleContent(this)">住宿推荐</button>
             <div class="content">
                 <div class="accommodation-section">
-                    <h4>阳江海陵岛希尔顿酒店（五星级）</h4>
-                    <p><strong>地址：</strong>海陵岛保利大道</p>
-                    <p><strong>价格：</strong>600-1000元/晚</p>
-                    <p><strong>特色：</strong>海景房，免费停车，服务优质</p>
+                    <h4>湛江花园酒店（五星级推荐）</h4>
+                    <p><strong>地址：</strong>赤坎区观海北路</p>
+                    <p><strong>价格：</strong>450-650元/晚</p>
+                    <p><strong>特色：</strong>45层滨海地标，无敌海景，靠近观海长廊，免费停车</p>
+                    <p><strong>评分：</strong>9.8/10（Trip.com）</p>
+                    
+                    <h4>备选酒店</h4>
+                    <p><strong>湛江人民大道希尔顿欢朋酒店：</strong>万达广场附近，服务热情，早餐一流（9.6/10）</p>
+                    <p><strong>湛江君豪酒店：</strong>万达广场附近，设施现代，服务优质（9.2/10）</p>
                 </div>
             </div>
         </div>
 
         <div class="day-section">
             <div class="day-title">
-                <span class="day-number">D4</span>
+                <span class="day-number">D3</span>
                 <span>阳江→顺德【顶级烧鹅+粥底火锅】</span>
             </div>
             
@@ -1251,7 +1151,7 @@
 
         <div class="day-section">
             <div class="day-title">
-                <span class="day-number">D5</span>
+                <span class="day-number">D4</span>
                 <span>顺德深度游【经典景点+华盖路老街巡礼】</span>
             </div>
             
@@ -1385,14 +1285,25 @@
                         • 寻找隐藏在巷弄的美味</div>
                     </div>
                     <p><strong>最佳时间：</strong>下午2-6点，体验从午后甜品到晚间小食的完整顺德美食文化</p>
+                    
+                    <div class="food-item">
+                        <div class="food-name">📍 推荐美食店铺</div>
+                        <div>• <strong>仁信老铺：</strong>大良镇华盖路6号（双皮奶始祖店）<br>
+                        • <strong>银记肠粉店：</strong>大良镇华盖路步行街（陈村粉老字号）<br>
+                        • <strong>细妹五香牛杂：</strong>大良镇华盖路25号（传统卤味）<br>
+                        • <strong>欢姐伦教糕：</strong>大良镇华盖路18号（手工制作）<br>
+                        • <strong>德昌鱼饼店：</strong>大良镇步行街32号（河鲜料理）<br>
+                        • <strong>刘向荣炸牛奶：</strong>大良镇华盖路步行街（传统炸牛奶）<br>
+                        • <strong>大良野鸡卷店：</strong>大良镇凤山路8号（传统点心）</div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="day-section">
             <div class="day-title">
-                <span class="day-number">D6</span>
-                <span>顺德→广州【早茶收官+西关风情第一天】</span>
+                <span class="day-number">D5</span>
+                <span>顺德→广州【广州深度游第一天】</span>
             </div>
             
             <button class="collapsible" onclick="toggleContent(this)">时间安排</button>
@@ -1505,6 +1416,18 @@
                         • 老广州生活方式</div>
                     </div>
                     <p><strong>最佳时间：</strong>下午3-9点，体验从下午茶到夜宵的完整西关美食文化</p>
+                    
+                    <div class="food-item">
+                        <div class="food-name">📍 推荐美食店铺</div>
+                        <div>• <strong>莲香楼：</strong>荔湾区第十甫路67号（百年老茶楼）<br>
+                        • <strong>陶陶居酒家：</strong>荔湾区第十甫路20号（粤菜老字号）<br>
+                        • <strong>荣华楼：</strong>荔湾区上九路47号（传统酒家）<br>
+                        • <strong>广州酒家：</strong>荔湾区文昌南路2号（早茶文化发源地）<br>
+                        • <strong>南信双皮奶：</strong>荔湾区第十甫路47号（双皮奶专家）<br>
+                        • <strong>银记肠粉店：</strong>荔湾区第十甫路79号（传统肠粉）<br>
+                        • <strong>点都德：</strong>荔湾区第十甫路55号（现代粤式茶点）<br>
+                        • <strong>街边萝卜牛杂档：</strong>上下九步行街各处（流动摊档）</div>
+                    </div>
                 </div>
             </div>
 
@@ -1525,8 +1448,8 @@
 
         <div class="day-section">
             <div class="day-title">
-                <span class="day-number">D7</span>
-                <span>广州→佛山【经典粤菜收官+佛山传统美食】</span>
+                <span class="day-number">D6</span>
+                <span>广州深度游第二天</span>
             </div>
             
             <button class="collapsible" onclick="toggleContent(this)">时间安排</button>
@@ -1557,24 +1480,20 @@
                         <span>游览石室圣心大教堂</span>
                     </div>
                     <div class="time-item">
-                        <span class="time">17:00</span>
-                        <span>出发前往佛山（33km，1小时）</span>
-                    </div>
-                    <div class="time-item">
-                        <span class="time">18:00</span>
-                        <span>抵达佛山，入住酒店</span>
+                        <span class="time">17:30</span>
+                        <span>游览越秀公园</span>
                     </div>
                     <div class="time-item">
                         <span class="time">19:00</span>
-                        <span>晚餐：佛山祖庙美食街</span>
+                        <span>晚餐：陶陶居酒家</span>
                     </div>
                     <div class="time-item">
                         <span class="time">20:30</span>
-                        <span>夜宵：佛山盲公饼+扎蹄</span>
+                        <span>夜宵：德昌鱼蛋粉</span>
                     </div>
                     <div class="time-item">
                         <span class="time">21:30</span>
-                        <span>佛山夜景漫步，准备明日返程</span>
+                        <span>广州夜景漫步</span>
                     </div>
                 </div>
             </div>
@@ -1607,28 +1526,55 @@
                         <div><strong>地址：</strong>荔湾区龙津东路723号<br>
                         <strong>特色：</strong>30年老字号，米其林推荐，明火煲仔饭，现点现煲，金黄饭焦</div>
                     </div>
+                    <div class="food-item">
+                        <div class="food-name">🥟 陶陶居酒家</div>
+                        <div><strong>地址：</strong>越秀区第十甫路20号<br>
+                        <strong>特色：</strong>虾饺、蛋挞、叉烧包，百年老字号茶楼</div>
+                    </div>
                 </div>
             </div>
 
-            <button class="collapsible" onclick="toggleContent(this)">佛山美食初体验</button>
+            <button class="collapsible" onclick="toggleContent(this)">西华路美食街citywalk</button>
             <div class="content">
-                <div class="food-section">
-                    <h4>🥮 佛山传统美食</h4>
+                <div class="citywalk-section">
+                    <h4>🍜 西华路传统美食街漫步</h4>
+                    <p><strong>路线：</strong>西华路 → 多宝路 → 宝华路 → 逢源路</p>
                     <div class="food-item">
-                        <div class="food-name">🥮 佛山盲公饼</div>
-                        <div><strong>特色：</strong>传统名点，酥脆香甜，有百年历史。选用优质花生、芝麻、糯米制作，层次分明</div>
+                        <div class="food-name">传统广府小食</div>
+                        <div>• 云吞面：手工竹升面，鲜虾云吞<br>
+                        • 牛杂萝卜：街头经典，卤香浓郁<br>
+                        • 猪脚姜：传统滋补美食<br>
+                        • 白切鸡：皮爽肉嫩，配沙姜<br>
+                        • 糯米鸡：叶香米糯，料足味美</div>
                     </div>
                     <div class="food-item">
-                        <div class="food-name">🐷 佛山扎蹄</div>
-                        <div><strong>特色：</strong>卤制猪蹄，肉质紧实，味道鲜美。用纱布包扎后卤制，形状独特，口感Q弹</div>
+                        <div class="food-name">老字号美食</div>
+                        <div>• 德昌鱼蛋粉：爽滑鱼蛋，传统味道<br>
+                        • 文记壹心鸡：白切鸡专家<br>
+                        • 伍湛记粥品：广式粥品老字号<br>
+                        • 荔湾名食家：传统粤菜<br>
+                        • 宝华面店：竹升面传承</div>
                     </div>
                     <div class="food-item">
-                        <div class="food-name">🐟 均安蒸猪</div>
-                        <div><strong>特色：</strong>肥而不膩，口感嫩滑。整猪用秘制调料腌制后蒸制，是佛山传统名菜</div>
+                        <div class="food-name">街头文化体验</div>
+                        <div>• 传统粤语文化氛围<br>
+                        • 街坊邻里生活场景<br>
+                        • 老广州烟火气息<br>
+                        • 传统制作工艺观摩<br>
+                        • 地道广府美食文化</div>
                     </div>
+                    <p><strong>最佳时间：</strong>下午2-6点，体验最地道的广州街头美食文化</p>
+                    
                     <div class="food-item">
-                        <div class="food-name">🏛️ 祖庙小吃街</div>
-                        <div><strong>特色：</strong>传统粤菜精华集中地，各种佛山本地小吃，体验正宗岭南文化</div>
+                        <div class="food-name">📍 推荐美食店铺</div>
+                        <div>• <strong>德昌鱼蛋粉：</strong>荔湾区西华路152号（爽滑鱼蛋，传统味道）<br>
+                        • <strong>文记壹心鸡：</strong>荔湾区多宝路15号（白切鸡专家）<br>
+                        • <strong>伍湛记粥品：</strong>荔湾区西华路186号（广式粥品老字号）<br>
+                        • <strong>荔湾名食家：</strong>荔湾区宝华路125号（传统粤菜）<br>
+                        • <strong>宝华面店：</strong>荔湾区宝华路35号（竹升面传承）<br>
+                        • <strong>永合成糖果店：</strong>荔湾区逢源路88号（传统糖果）<br>
+                        • <strong>吴财记面家：</strong>荔湾区西华路235号（云吞面老字号）<br>
+                        • <strong>街边牛杂档：</strong>西华路各路段（8:00-22:00营业）</div>
                     </div>
                 </div>
             </div>
@@ -1636,13 +1582,142 @@
             <button class="collapsible" onclick="toggleContent(this)">住宿推荐</button>
             <div class="content">
                 <div class="accommodation-section">
-                    <h4>佛山岭南天地马哥孛罗酒店（五星级）</h4>
-                    <p><strong>地址：</strong>禅城区祖庙路岭南天地</p>
-                    <p><strong>价格：</strong>500-800元/晚</p>
-                    <p><strong>特色：</strong>位于岭南天地核心区，靠近祖庙，交通便利，免费停车</p>
+                    <h4>广州花园酒店（五星级）</h4>
+                    <p><strong>地址：</strong>天河区环市东路368号</p>
+                    <p><strong>价格：</strong>600-1000元/晚</p>
+                    <p><strong>特色：</strong>华南首家白金五星，停车便利，地理位置优越</p>
                     
-                    <h4>备选酒店</h4>
-                    <p><strong>佛山希尔顿酒店：</strong>禅城区季华五路，设施现代，服务优质</p>
+                    <h4>备选酒店推荐</h4>
+                    <p><strong>广州希尔顿逸林酒店：</strong>越秀区东风路391号，交通便捷，设施高端</p>
+                    <p><strong>北京路步行街美居酒店：</strong>越秀区北京路182号，地段优越，美食街旁</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="day-section">
+            <div class="day-title">
+                <span class="day-number">D7</span>
+                <span>广州→佛山【岭南文化发源地+武术之乡】</span>
+            </div>
+            
+            <button class="collapsible" onclick="toggleContent(this)">时间安排</button>
+            <div class="content">
+                <div class="time-schedule">
+                    <div class="time-item">
+                        <span class="time">08:00</span>
+                        <span>广州早餐：传统茶楼早茶</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">09:00</span>
+                        <span>出发前往佛山</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">10:00</span>
+                        <span>抵达佛山，入住酒店</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">10:30</span>
+                        <span>游览佛山祖庙</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">12:00</span>
+                        <span>午餐：佛山传统美食</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">14:00</span>
+                        <span>岭南天地文化街区</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">16:00</span>
+                        <span>品尝佛山盲公饼、扎蹄</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">18:00</span>
+                        <span>晚餐：佛山本地菜</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time">19:30</span>
+                        <span>佛山夜景漫步+夜宵</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="collapsible" onclick="toggleContent(this)">佛山美食攻略</button>
+            <div class="content">
+                <div class="food-section">
+                    <h4>🏛️ 佛山必吃美食</h4>
+                    <div class="food-item">
+                        <div class="food-name">🥮 佛山盲公饼</div>
+                        <div><strong>地址：</strong>合成号饼家（总店）<br>
+                        <strong>特色：</strong>佛山传统名点，创于清朝嘉庆年间，选用花生、芝麻、核桃等制作，香甜酥脆，有"佛山三宝"之一的美誉</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🦵 佛山扎蹄</div>
+                        <div><strong>地址：</strong>得心斋扎蹄店<br>
+                        <strong>特色：</strong>佛山传统名菜，选用猪前蹄，去骨后卷成圆筒状，用猪网油包扎，卤制而成。口感Q弹，卤香浓郁</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🐷 均安蒸猪</div>
+                        <div><strong>特色：</strong>顺德均安传统名菜，整猪蒸制，皮脆肉嫩，蘸生抽食用，是佛山地区的经典菜式</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🥛 佛山双皮奶</div>
+                        <div>佛山传统甜品，奶香浓郁，口感嫩滑，与顺德双皮奶各有特色</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🍜 佛山柱候鸡</div>
+                        <div>佛山特色菜，使用柱候酱烹制，酱香浓郁，鸡肉嫩滑，是佛山家常菜的代表</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🥟 佛山煎堆</div>
+                        <div>佛山传统小食，外酥内软，馅料丰富，有芝麻、花生等多种口味</div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="collapsible" onclick="toggleContent(this)">佛山必游景点</button>
+            <div class="content">
+                <div class="citywalk-section">
+                    <h4>🏛️ 佛山经典景点</h4>
+                    <div class="food-item">
+                        <div class="food-name">🏯 佛山祖庙</div>
+                        <div><strong>门票：</strong>20元/人<br>
+                        <strong>特色：</strong>北宋时期建筑群，供奉北帝的道教庙宇，是佛山历史文化的象征，陈列有大量精美的岭南古建筑艺术品</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🥋 黄飞鸿纪念馆</div>
+                        <div><strong>门票：</strong>包含在祖庙门票内<br>
+                        <strong>特色：</strong>展示一代武术宗师黄飞鸿的生平事迹，了解佛山武术文化，体验岭南功夫的魅力</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🏘️ 岭南天地</div>
+                        <div><strong>门票：</strong>免费<br>
+                        <strong>特色：</strong>融合传统岭南建筑与现代商业的文化街区，保留了明清古建筑，集购物、餐饮、文化体验于一体</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🎭 佛山梁园</div>
+                        <div><strong>门票：</strong>10元/人<br>
+                        <strong>特色：</strong>清代园林建筑，是佛山梁氏宅园的总称，体现了岭南园林的建筑风格和文化内涵</div>
+                    </div>
+                    <div class="food-item">
+                        <div class="food-name">🎨 南风古灶</div>
+                        <div><strong>门票：</strong>25元/人<br>
+                        <strong>特色：</strong>明朝万历年间建造的龙窑，有"陶瓷活化石"之称，可体验陶艺制作，了解佛山陶瓷文化</div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="collapsible" onclick="toggleContent(this)">住宿推荐</button>
+            <div class="content">
+                <div class="accommodation-section">
+                    <h4>佛山富林朗悦酒店（五星级）</h4>
+                    <p><strong>地址：</strong>禅城区祖庙路33号</p>
+                    <p><strong>价格：</strong>500-700元/晚</p>
+                    <p><strong>特色：</strong>毗邻佛山祖庙，地理位置优越，设施现代化，服务优质</p>
+                    
+                    <h4>备选酒店推荐</h4>
+                    <p><strong>佛山岭南天地马哥孛罗酒店：</strong>岭南天地核心位置，融合传统与现代</p>
+                    <p><strong>佛山保利洲际酒店：</strong>新城区地标，购物便利，设施一流</p>
                 </div>
             </div>
         </div>
@@ -1658,11 +1733,11 @@
                 <div class="time-schedule">
                     <div class="time-item">
                         <span class="time">08:00</span>
-                        <span>佛山早餐：传统茶楼早茶</span>
+                        <span>佛山早餐：佛山盲公饼+传统茶点</span>
                     </div>
                     <div class="time-item">
                         <span class="time">09:00</span>
-                        <span>退房，出发前往湛江（393km，4.5小时）</span>
+                        <span>退房，出发前往湛江（350km，4小时）</span>
                     </div>
                     <div class="time-item">
                         <span class="time">10:30</span>
@@ -1777,8 +1852,8 @@
                     </tr>
                     <tr>
                         <td>住宿费</td>
-                        <td>7晚酒店（湛江2晚+阳江1晚+顺德2晚+广州2晚）</td>
-                        <td>4000-6000元</td>
+                        <td>6晚酒店（湛江1晚+阳江1晚+顺德1晚+广州2晚+佛山1晚）</td>
+                        <td>3600-5400元</td>
                     </tr>
                     <tr>
                         <td>餐饮费</td>
@@ -1798,7 +1873,7 @@
                     <tr style="background: #f8f9fa; font-weight: bold;">
                         <td>总计</td>
                         <td>8天广东美食自驾游</td>
-                        <td>7800-11800元</td>
+                        <td>7400-11400元</td>
                     </tr>
                 </tbody>
                 </table>
@@ -1972,18 +2047,19 @@
 
         <div class="overview-section">
             <h2 class="section-title">总结</h2>
-            <p>这条8天广东美食自驾游路线，从海口出发，经徐闻港进入广东，从粤西的湛江海鲜到茂名阳江的海滨美味，再到顺德的世界美食之都，最后到广州的粤菜精华，全面展现了广东美食的多样性和独特魅力。行程悠闲而充实，既有充足的美食体验时间，又加入了深度的citywalk体验和经典景点游览，让您更好地感受岭南文化的深厚底蕴。</p>
+            <p>这条8天广东美食自驾游路线，从海口出发，经徐闻港进入广东，从粤西的湛江海鲜到茂名阳江的海滨美味，再到顺德的世界美食之都，然后到广州的粤菜精华，最后在佛山感受岭南文化发源地和武术之乡的魅力，全面展现了广东美食的多样性和独特魅力。行程悠闲而充实，单次驾驶不超过4小时，既有充足的美食体验时间，又加入了深度的citywalk体验和经典景点游览，让您更好地感受岭南文化的深厚底蕴。</p>
             
             <div class="food-section">
                 <h4>行程亮点：</h4>
                 <ul>
-                    <li>湛江两日深度游：赤坎老街海鲜文化+湖光岩玛珥湖+东海岛海滨体验</li>
-                    <li>茂名阳江海滨之旅：第一滩风光+海陵岛度假+闸坡渔港海鲜</li>
-                    <li>顺德两日深度游：烧鹅朝圣+水乡古韵+华盖路美食街citywalk</li>
-                    <li>广州两日深度游：从经典早茶到老街小吃的粤菜文化之旅</li>
-                    <li>清晖园、逢简水乡、白云山、陈家祠等经典景点文化体验</li>
+                    <li>湛江海鲜体验：赤坎老街海鲜文化+传统骑楼建筑风情</li>
+                    <li>茂名阳江海滨之旅：荔枝之都体验+海陵岛度假+闸坡渔港海鲜</li>
+                    <li>顺德美食朝圣：世界级烧鹅+传统小吃+华盖路美食街citywalk</li>
+                    <li>广州两日深度游：从传统早茶到现代美食的粤菜文化精华体验</li>
+                    <li>佛山岭南文化发源地：祖庙武术文化+黄飞鸿纪念馆+盲公饼等传统美食</li>
+                    <li>清晖园、逢简水乡、白云山、陈家祠、佛山祖庙等经典景点文化体验</li>
                     <li>赤坎老街、华盖路、上下九、西华路四大美食街深度citywalk</li>
-                    <li>每个城市的悠闲节奏，每日驾驶不超过3小时</li>
+                    <li>每个城市的悠闲节奏，单次驾驶不超过4小时，避免疲劳</li>
                     <li>完整的往返路线设计，包含轮渡过海的独特体验</li>
                 </ul>
             </div>
@@ -1991,12 +2067,14 @@
             <div class="accommodation-section">
                 <h4>悠闲自驾的优势：</h4>
                 <ul>
-                    <li>每日里程控制在200-300km，避免长途驾驶疲劳</li>
-                    <li>湛江、阳江、顺德、广州四地深度停留，体验当地生活</li>
-                    <li>新增阳江海陵岛度假体验，享受海滨悠闲时光</li>
-                    <li>茂名第一滩中转，感受荔枝之乡的风土人情</li>
-                    <li>完整的返程规划，避免匆忙赶路的疲惫</li>
+                    <li>单次里程控制在40-220km，单次驾驶不超过4小时，避免长途驾驶疲劳</li>
+                    <li>湛江、阳江、顺德、广州、佛山五地深度停留，体验当地生活</li>
+                    <li>广州两日深度游，体验粤菜文化精髓，时间更加合理</li>
+                    <li>佛山岭南文化发源地体验，祖庙武术文化+传统美食</li>
+                    <li>茂名荔枝之都中转，感受岭南水果文化</li>
+                    <li>阳江海陵岛度假体验，享受海滨悠闲时光</li>
                     <li>每个城市都有citywalk体验，深度感受本地文化</li>
+                    <li>返程路线优化，佛山→湛江比广州→湛江节省120公里，距离更短</li>
                 </ul>
             </div>
             
@@ -2005,9 +2083,12 @@
                 <ul>
                     <li>从湛江海鲜的朴实鲜美到阳江渔港的丰富多样</li>
                     <li>从顺德精工细作的美食艺术到广州博大精深的粤菜文化</li>
+                    <li>佛山岭南文化发源地：传统盲公饼+扎蹄+佛山柱候鸡等特色美食</li>
+                    <li>广州两日精华体验：传统早茶文化+街头小食+经典粤菜</li>
                     <li>体验四条不同风格的美食街，感受岭南饮食文化演进</li>
                     <li>与本地人交流，发现隐藏在街头巷尾的美食珍宝</li>
                     <li>理解粤菜"不时不食"的饮食哲学和生活态度</li>
+                    <li>从海滨到山区，体验广东不同地理环境孕育的多元美食文化</li>
                 </ul>
             </div>
             
@@ -2025,8 +2106,8 @@
                 </ul>
             </div>
             
-            <p style="text-align: center; font-size: 1.2em; color: #e74c3c; margin-top: 20px;">
-                <strong>祝您的8天广东美食自驾之旅圆满成功，在悠闲的citywalk中留下美好的味觉记忆和深度的文化体验！这不仅是一次美食之旅，更是一次心灵与文化的深度对话。</strong>
+            <p style="text-align: center; font-size: 1.2em; color: #D84315; margin-top: 20px; padding: 15px; background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border-radius: 10px; box-shadow: 0 5px 15px rgba(216, 67, 21, 0.15);">
+                <strong>祝您的8天广东美食自驾之旅圆满成功！从湛江海鲜到佛山盲公饼，从顺德烧鹅到广州早茶，单次驾驶不超过4小时的悠闲节奏，让您在citywalk中留下美好的味觉记忆和深度的文化体验！这不仅是一次美食之旅，更是一次心灵与文化的深度对话。</strong>
             </p>
         </div>
     </div>
